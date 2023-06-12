@@ -10,6 +10,11 @@ class Product3{
 		this.price = price;
 		bonusPoint = (int)(price/10.0);
 	}
+	
+	Product3(){
+		price = 0;
+		bonusPoint = 0;
+	}
 }
 
 
